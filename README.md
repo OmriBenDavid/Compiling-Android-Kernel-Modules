@@ -115,15 +115,18 @@ Go to the directory where the module's sorce code is saved and run
 
 It should work absolutely fine.
 
+Once compilation is done (which happens very quickly) you should have a ready .ko file.
+
+
 ## Step 6 - Signing the module
 Android demands kernel modules to be digitally signed in order to insert them.
 Luckily the goldfish kernel provides us with the needed certifications in order to sign a module.
 
 To do so just enter the goldfish directory and run:
 
-    ./scripts/sign-file sha512 ./certs/signing_key.pem ./certs/signing_key.x509 /path/to/module.ko /path/to/module-signed.ko
+    ./scripts/sign-file sha512 ./certs/signing_key.pem ./certs/signing_key.x509 /path/to/helloworld.ko /path/to/helloworld-signed.ko
 
-Assuming your module is called module.ko
+Assuming you are using my helloworld.c source code.
 
 ## Conclution
 This is the guide so far. 
