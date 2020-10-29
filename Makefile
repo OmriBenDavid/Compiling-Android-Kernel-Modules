@@ -1,7 +1,7 @@
 
-obj-m := rootkit.o
+obj-m := helloworld.o
 
-KERNEL_DIR= /mnt/c/Project/Compile/goldfish
+KERNEL_DIR= /path/to/goldfish
 
 all:
 	make -C $(KERNEL_DIR) M=$(shell pwd)/ ARCH=arm CROSS_COMPILE=arm-linux-androideabi- modules
