@@ -109,7 +109,7 @@ You two deserve it.
 In order to make the module you need a Makefile.
 I have already uploaded a sample makefile.
 
-Go to the directory where the module's sorce code is saved and run
+Download the Makefile into the directory where the module's sorce code is saved and run the command:
     
     make
 
