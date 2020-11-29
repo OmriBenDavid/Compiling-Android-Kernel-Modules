@@ -39,7 +39,6 @@ line:
 
     # CONFIG_IPV6 is not set
     
-(without quotation marks)
 
 2) Go down the file and comment out (using the '#' character) the following lines:
 
