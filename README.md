@@ -34,10 +34,17 @@ For this part you are free to use your favorite text editor, I'll assume it's vi
 Now that the file is open follow these instructions:
 
 1) At the very top add the line:
-    '# CONFIG_IPV6 is not set'
+
+line:
+
+    # CONFIG_IPV6 is not set
+    
+(without quotation marks)
 
 2) Go down the file and comment out (using the '#' character) the following lines:
 
+Lines:
+    
     #CONFIG_NF_CONNTRACK_IPV6=y
     
     #CONFIG_IP6_NF_IPTABLES=y
@@ -52,6 +59,8 @@ Now that the file is open follow these instructions:
 
 3) Scroll down to the very bottom of the file and add the following lines:
 
+lines:
+    
     CONFIG_MODULES=y
     
     CONFIG_MODULE_FORCE_LOAD=y
