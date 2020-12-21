@@ -136,7 +136,8 @@ To do so just enter the goldfish directory and run:
 
 Assuming you are using my helloworld.c source code.
 
-## Conclution
+## Conclusion
 This is the guide so far. 
-Future updates may include more details on how to make an emulator and load the kernel module onto an emulator.
+This is the way I managed to compile android kernel modules.
+I do appologize that there are no demonstrations, I could not find a way to make an emulator that supports kernel modules.
 I hope you found this guide helpful.
