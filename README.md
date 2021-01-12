@@ -77,7 +77,7 @@ For cross compiling the kernel and later the module we will use the android NDK.
 The version that worked best for me was android-ndk-r12b and this is the one we will use in this guide.
 
 
-    curl -o android-ndk.zip http://dl.google.com/android/repository/android-ndk-r12b-linux-x86_64.zip
+    curl -O http://dl.google.com/android/repository/android-ndk-r12b-linux-x86_64.zip
 
 
 When the download is done it's time to unzip the file.
